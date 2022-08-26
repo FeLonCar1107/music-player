@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+    <link rel="icon" href="assets/img/logo.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="styles.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <!-- Container -->
+    <main class="container">
+        <!-- Sidebar left -->
+        <div class="sidebar">
+            <div class="user">
+                <div class="user_picture">
+                    <img src="assets/img/Felipe.jpg" alt="" class="picture">
+                </div>
+                <p class="user_name">Felipe Londoño Cardona</p>
+                <p class="user_email">pipe20001107@gmail.com</p>
+            </div>
+            <ul>
+                <i id="icon_home" class="material-icons">home</i><li>Home</li>
+                <i id="icon_browse" class="material-icons">web</i><li>Browse</li>
+                <i id="icon_album" class="material-icons">album</i><li>Album</li>
+                <i id="icon_artist" class="material-icons">person</i><li>Artist</li>
+                <i id="icon_videos" class="material-icons">smart_display</i><li>Videos</li>
+            </ul>
+            <p id="music">MY MUSIC</p>
+            <ul>
+                <i id="icon_played" class="material-icons">history</i><li>Recently Played</li>
+                <i id="icon_localFiles" class="material-icons">folder</i><li>Local Files</li>
+            </ul>
+            <div class="phone_details">
+                <img src="assets/img/iphone.jpg" alt="" class="iphone">
+                <p class="reference">Iphone 13 PRO MAX</p>
+                <p class="memory">256 Gb</p>
+            </div>
+        </div>
+        <div id="menu">
+            <i id="icon_menu" class="material-icons">menu</i>
+        </div>
+        <!-- Music Side -->
+        <div class="song_side">
+        <!-- header -->
+        <div class="encabezado">
+            <div class="search">
+                <i id="icon_search" class="material-icons">search</i>
+                <input type="text" class="search_bar" placeholder="Search for song, artist etc..." required>
+            </div>
+            <div class="settings">
+                <i id="icon_notifications" class="material-icons">notifications</i>
+                <i id="icon_settings" class="material-icons">settings</i>
+                <button class="logOut">Log Out</button>
+            </div>
+        </div>
+        <!-- Topchart -->
+        <div class="topchart">
+            <h4>Billboard Topchart</h4>
+            <div class="btn_s">
+                <i id="icon_arrowBack" class="material-icons">arrow_back_ios</i>
+                <i id="icon_arrowNext" class="material-icons">arrow_forward_ios</i>
+            </div>
+        </div>
+        <!-- Billboard Topchart -->
+            <div class="billboard_topchart">
+                <li class="albumItem">
+                    <img src="assets/img/album1.jpg" alt="" class="img_play">
+                    <div class="title">
+                        <h5>Stratboy</h5>
+                        <h6>Daft Punk</h6>
+                    </div>
+                </li>
+                <li class="albumItem">
+                    <img src="assets/img/album2.jpg" alt="" class="img_play">
+                    <div class="title">
+                        <h5>Fuego Artificial</h5>
+                        <h6>Jacobo Sierra</h6>
+                    </div>
+                </li>
+                <li class="albumItem">
+                    <img src="assets/img/album3.jpg" alt="" class="img_play">
+                    <div class="title">
+                        <h5>Cero</h5>
+                        <h6>Dinero</h6>
+                    </div>
+                </li>
+                <li class="albumItem">
+                    <img src="assets/img/album4.jpg" alt="" class="img_play">
+                    <div class="title">
+                        <h5>Fifth Harmonies</h5>
+                        <h6>Fifth Harmony</h6>
+                    </div>
+                </li>
+                <li class="albumItem">
+                    <img src="assets/img/album5.jpg" alt="" class="img_play">
+                    <div class="title">
+                        <h5>Evolve</h5>
+                        <h6>Imagine Dragons</h6>
+                    </div>
+                </li>
+                <li class="albumItem">
+                    <img src="assets/img/album6.jpg" alt="" class="img_play">
+                    <div class="title">
+                        <h5>Everything now</h5>
+                        <h6>Arcade Fire</h6>
+                    </div>
+                </li>
+                <li class="albumItem">
+                    <img src="assets/img/album7.jpg" alt="" class="img_play">
+                    <div class="title">
+                        <h5>Freedom child</h5>
+                        <h6>The Script</h6>
+                    </div>
+                </li>
+            </div>
+        <!-- Play -->
+        <div class="play">
+            <!-- Most Popular Songs-->
+            <div class="playList">
+                <h4>Most popular</h4>
+                <h6>906 songs</h6>
+                <div class="menu_song">
+                    <li class="song">
+                        <div class="songItem">
+                        <span>01</span>
+                        <img src="assets/img/cancion1.jpg" alt="">
+                        <i id="icon_playArrow" class="material-icons">play_arrow</i>
+                        <h5>Selene Browns</h5>
+                        </div>
+                        <div class="name_artist">
+                            <h5>Selene Browns</h5>
+                        </div>
+                        <span>3:22</span>
+                        <i id="icon_favorite" class="material-icons">favorite</i>
+                    </li>
+                    <li class="song">
+                        <div class="songItem">
+                        <span>02</span>
+                        <img src="assets/img/cancion2.jpg" alt="">
+                        <i id="icon_playArrow" class="material-icons">play_arrow</i>
+                        <h5>Happier</h5>
+                        </div>
+                        <div class="name_artist">
+                            <h5>Bastitille</h5>
+                        </div>
+                        <span>4:32</span>
+                        <i id="icon_favorite" class="material-icons">favorite</i>
+                    </li>
+                    <li class="song">
+                        <div class="songItem">
+                        <span>03</span>
+                        <img src="assets/img/cancion3.jpg" alt="">
+                        <i id="icon_playArrow" class="material-icons">play_arrow</i>
+                        <h5>All Around the World</h5>
+                        </div>
+                        <div class="name_artist">
+                            <h5 >ATC</h5>
+                        </div>
+                        <span>3:46</span>
+                        <i id="icon_favorite" class="material-icons">favorite</i>
+                    </li>
+                    <li class="song">
+                        <div class="songItem">
+                        <span>04</span>
+                        <img src="assets/img/cancion4.jpg" alt="">
+                        <i id="icon_playArrow" class="material-icons">play_arrow</i>
+                        <h5>Humility</h5>
+                        </div>
+                        <div class="name_artist">
+                            <h5>Gorillaz</h5>
+                        </div>
+                        <span>2:52</span>
+                        <i id="icon_favorite" class="material-icons">favorite</i>
+                    </li>
+                    <li class="song">
+                        <div class="songItem">
+                        <span>05</span>
+                        <img src="assets/img/cancion5.jpg" alt="">
+                        <i id="icon_playArrow" class="material-icons">play_arrow</i>
+                        <h5>New Rules</h5>
+                        </div>
+                        <div class="name_artist">
+                            <h5 >Dua lipa</h5>
+                        </div>
+                        <span>3:42</span>
+                        <i id="icon_favorite" class="material-icons">favorite</i>
+                    </li>
+                </div>
+            </div>
+            <!-- Player -->
+            <div class="player">
+                <h4>Now Playing</h4>
+                <h6>55 Items on the list</h6>
+                <div class="back_player">
+                    <!-- Playing -->
+                    <div class="playing">
+                        <!-- Cover -->
+                        <div class="cover">
+                            <img src="assets/img/ShapeOfYou.jpg" alt="" class="cover-picture">
+                        </div>
+                        <!-- Song details -->
+                        <div class="song-details">
+                            <p class="name">Ed Sheeran - Shape of you</p>
+                            <p class="artist">Ed Sheeran</p>
+                        </div>
+                        <!-- Progress area -->
+                        <div class="progress-bar">
+                             <div class="progress"></div>
+                        </div>
+                        <div class="timer">
+                                 <span class="current">1:20</span>
+                                 <span class="current">3:40</span>
+                        </div>
+                        <!-- Controls -->
+                    <div class="controls">
+                        <i id="repeat-plits" class="material-icons">repeat</i>
+                        <i id="prev" class="material-icons">skip_previous</i>
+                             <div class="play_pause">
+                               <i class="material-icons">play_arrow</i>
+                             </div>
+                        <i id="next" class="material-icons">skip_next</i>            
+                        <i id="more-music" class="material-icons">queue_music</i>   
+                   </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>  
+</body>
+</html>
